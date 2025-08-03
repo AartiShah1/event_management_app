@@ -32,12 +32,12 @@ This project is built as part of the **Front-end Internship Assignment** for **E
 https://github.com/AartiShah1/event_management_app.git
 cd event-management-project
 
-2.Install Dependencies
+2.Install Dependencies-
 npm install
 
-3.Start the Development Server
+3.Start the Development Server--
 npm run dev
 
-4.Build the Project for Production
+4.Build the Project for Production--
 npm run build
 
