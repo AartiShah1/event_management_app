@@ -1,6 +1,8 @@
 ![Event_management](https://github.com/user-attachments/assets/65c43a42-4a3a-43ce-b77d-1231c6c277c3)
 ![event_listed](https://github.com/user-attachments/assets/dd045f4d-d2f6-4766-92b0-9dba47359963)
 ![create_event](https://github.com/user-attachments/assets/bcfdfc74-d331-4e71-a7ea-c8cc29dd0357)
+
+
 #Event Management App
 
 This project is built as part of the **Front-end Internship Assignment** for **EB Pearls **. It is a simple and responsive Event Management System built using **ReactJS**, **TypeScript**, **Material UI**, **Tailwind CSS**, and **react-hook-form**.
