@@ -2,8 +2,6 @@
 
 This project is built as part of the **Front-end Internship Assignment** for **EB Pearls **. It is a simple and responsive Event Management System built using **ReactJS**, **TypeScript**, **Material UI**, **Tailwind CSS**, and **react-hook-form**.
 
----
-
 ## Features
 
 ✅ Add a new event (with title, description, venue, and date)  
