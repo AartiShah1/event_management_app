@@ -1,5 +1,3 @@
-// src/pages/EventPage.tsx
-
 import { Container, Typography, Alert, IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import { useState } from 'react';

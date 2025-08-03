@@ -34,19 +34,26 @@ const EventForm = ({ onSubmit, existingEvents, editEvent, cancelEdit }: Props) =
     },
   });
 
-  useEffect(() => {
-    if (editEvent) {
-      reset({
-        id: editEvent.id,
-        title: editEvent.title,
-        date: editEvent.date,
-        venue: editEvent.venue,
-        description: editEvent.description || '',
-      });
-    } else {
-      reset();
-    }
-  }, [editEvent, reset]);
+useEffect(() => {
+  if (editEvent) {
+    reset({
+      id: editEvent.id,
+      title: editEvent.title,
+      date: editEvent.date,
+      venue: editEvent.venue,
+      description: editEvent.description || '',
+    });
+  } else {
+    reset({
+      id: '',
+      title: '',
+      date: '',
+      venue: '',
+      description: '',
+    });
+  }
+}, [editEvent, reset]);
+
 
   const onFormSubmit = (data: FormData) => {
     // Check for duplicate event (same date and venue)
